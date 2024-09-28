@@ -1,0 +1,122 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF805D3F9F805D3F9",
+      "device": "xc7z020clg484-2",
+      "gen_directory": "../../../../demux4.gen/sources_1/bd/demux4",
+      "name": "demux4",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "demux2_0": "",
+      "demux2_1": "",
+      "demux2_2": ""
+    },
+    "ports": {
+      "A0": {
+        "direction": "I"
+      },
+      "Y0": {
+        "direction": "O"
+      },
+      "Y1": {
+        "direction": "O"
+      },
+      "A1": {
+        "direction": "I"
+      },
+      "D": {
+        "direction": "I"
+      },
+      "Y2": {
+        "direction": "O"
+      },
+      "Y3": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "demux2_0": {
+        "vlnv": "xilinx.com:user:demux2:1.0",
+        "ip_revision": "2",
+        "xci_name": "demux4_demux2_0_0",
+        "xci_path": "ip\\demux4_demux2_0_0\\demux4_demux2_0_0.xci",
+        "inst_hier_path": "demux2_0"
+      },
+      "demux2_1": {
+        "vlnv": "xilinx.com:user:demux2:1.0",
+        "ip_revision": "2",
+        "xci_name": "demux4_demux2_0_1",
+        "xci_path": "ip\\demux4_demux2_0_1\\demux4_demux2_0_1.xci",
+        "inst_hier_path": "demux2_1"
+      },
+      "demux2_2": {
+        "vlnv": "xilinx.com:user:demux2:1.0",
+        "ip_revision": "2",
+        "xci_name": "demux4_demux2_0_2",
+        "xci_path": "ip\\demux4_demux2_0_2\\demux4_demux2_0_2.xci",
+        "inst_hier_path": "demux2_2"
+      }
+    },
+    "nets": {
+      "A_0_1": {
+        "ports": [
+          "A0",
+          "demux2_0/A",
+          "demux2_1/A"
+        ]
+      },
+      "A_1_1": {
+        "ports": [
+          "A1",
+          "demux2_2/A"
+        ]
+      },
+      "D_0_1": {
+        "ports": [
+          "D",
+          "demux2_2/D"
+        ]
+      },
+      "demux2_0_Y0": {
+        "ports": [
+          "demux2_0/Y0",
+          "Y0"
+        ]
+      },
+      "demux2_0_Y1": {
+        "ports": [
+          "demux2_0/Y1",
+          "Y1"
+        ]
+      },
+      "demux2_1_Y0": {
+        "ports": [
+          "demux2_1/Y0",
+          "Y2"
+        ]
+      },
+      "demux2_1_Y1": {
+        "ports": [
+          "demux2_1/Y1",
+          "Y3"
+        ]
+      },
+      "demux2_2_Y0": {
+        "ports": [
+          "demux2_2/Y0",
+          "demux2_0/D"
+        ]
+      },
+      "demux2_2_Y1": {
+        "ports": [
+          "demux2_2/Y1",
+          "demux2_1/D"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x17E28DBB17E28DBB",
+      "device": "xc7z020clg484-2",
+      "gen_directory": "../../../../add_dec4.gen/sources_1/bd/add_dec4",
+      "name": "add_dec4",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "add_dec_0": "",
+      "add_dec_1": "",
+      "add_dec_2": "",
+      "add_dec_3": ""
+    },
+    "ports": {
+      "A3": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "B3": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "Y3": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "cout": {
+        "direction": "O"
+      },
+      "A2": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "B2": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "Y2": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "A1": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "B1": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "Y1": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "A0": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "B0": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "Y0": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "cin": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "add_dec_0": {
+        "vlnv": "xilinx.com:user:add_dec:1.0",
+        "ip_revision": "2",
+        "xci_name": "add_dec4_add_dec_0_0",
+        "xci_path": "ip\\add_dec4_add_dec_0_0\\add_dec4_add_dec_0_0.xci",
+        "inst_hier_path": "add_dec_0"
+      },
+      "add_dec_1": {
+        "vlnv": "xilinx.com:user:add_dec:1.0",
+        "ip_revision": "2",
+        "xci_name": "add_dec4_add_dec_0_1",
+        "xci_path": "ip\\add_dec4_add_dec_0_1\\add_dec4_add_dec_0_1.xci",
+        "inst_hier_path": "add_dec_1"
+      },
+      "add_dec_2": {
+        "vlnv": "xilinx.com:user:add_dec:1.0",
+        "ip_revision": "2",
+        "xci_name": "add_dec4_add_dec_0_2",
+        "xci_path": "ip\\add_dec4_add_dec_0_2\\add_dec4_add_dec_0_2.xci",
+        "inst_hier_path": "add_dec_2"
+      },
+      "add_dec_3": {
+        "vlnv": "xilinx.com:user:add_dec:1.0",
+        "ip_revision": "2",
+        "xci_name": "add_dec4_add_dec_0_3",
+        "xci_path": "ip\\add_dec4_add_dec_0_3\\add_dec4_add_dec_0_3.xci",
+        "inst_hier_path": "add_dec_3"
+      }
+    },
+    "nets": {
+      "A_0_1": {
+        "ports": [
+          "A3",
+          "add_dec_0/A"
+        ]
+      },
+      "A_1_1": {
+        "ports": [
+          "A2",
+          "add_dec_1/A"
+        ]
+      },
+      "A_2_1": {
+        "ports": [
+          "A1",
+          "add_dec_2/A"
+        ]
+      },
+      "A_3_1": {
+        "ports": [
+          "A0",
+          "add_dec_3/A"
+        ]
+      },
+      "B_0_1": {
+        "ports": [
+          "B3",
+          "add_dec_0/B"
+        ]
+      },
+      "B_1_1": {
+        "ports": [
+          "B2",
+          "add_dec_1/B"
+        ]
+      },
+      "B_2_1": {
+        "ports": [
+          "B1",
+          "add_dec_2/B"
+        ]
+      },
+      "B_3_1": {
+        "ports": [
+          "B0",
+          "add_dec_3/B"
+        ]
+      },
+      "add_dec_0_Y": {
+        "ports": [
+          "add_dec_0/Y",
+          "Y3"
+        ]
+      },
+      "add_dec_0_cout": {
+        "ports": [
+          "add_dec_0/cout",
+          "cout"
+        ]
+      },
+      "add_dec_1_Y": {
+        "ports": [
+          "add_dec_1/Y",
+          "Y2"
+        ]
+      },
+      "add_dec_1_cout": {
+        "ports": [
+          "add_dec_1/cout",
+          "add_dec_0/cin"
+        ]
+      },
+      "add_dec_2_Y": {
+        "ports": [
+          "add_dec_2/Y",
+          "Y1"
+        ]
+      },
+      "add_dec_2_cout": {
+        "ports": [
+          "add_dec_2/cout",
+          "add_dec_1/cin"
+        ]
+      },
+      "add_dec_3_Y": {
+        "ports": [
+          "add_dec_3/Y",
+          "Y0"
+        ]
+      },
+      "add_dec_3_cout": {
+        "ports": [
+          "add_dec_3/cout",
+          "add_dec_2/cin"
+        ]
+      },
+      "cin_0_1": {
+        "ports": [
+          "cin",
+          "add_dec_3/cin"
+        ]
+      }
+    }
+  }
+}

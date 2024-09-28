@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../add_dec4.gen/sources_1/bd/add_dec4/ipshared/4f00/src/add_dec.v" \
+"../../../../add_dec4.gen/sources_1/bd/add_dec4/ip/add_dec4_add_dec_0_0/sim/add_dec4_add_dec_0_0.v" \
+"../../../../add_dec4.gen/sources_1/bd/add_dec4/ip/add_dec4_add_dec_0_1/sim/add_dec4_add_dec_0_1.v" \
+"../../../../add_dec4.gen/sources_1/bd/add_dec4/ip/add_dec4_add_dec_0_2/sim/add_dec4_add_dec_0_2.v" \
+"../../../../add_dec4.gen/sources_1/bd/add_dec4/ip/add_dec4_add_dec_0_3/sim/add_dec4_add_dec_0_3.v" \
+"../../../../add_dec4.gen/sources_1/bd/add_dec4/sim/add_dec4.v" \
+"../../../../add_dec4.gen/sources_1/bd/add_dec4/hdl/add_dec4_wrapper.v" \
+"../../../../add_dec4.srcs/sim_1/new/add_dec4_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

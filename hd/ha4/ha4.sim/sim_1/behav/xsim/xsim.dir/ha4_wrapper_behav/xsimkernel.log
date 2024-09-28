@@ -1,0 +1,7 @@
+Running: xsim.dir/ha4_wrapper_behav/xsimk.exe -simmode gui -wdb ha4_wrapper_behav.wdb -simrunnum 0 -socket 50991
+Design successfully loaded
+Design Loading Memory Usage: 8380 KB (Peak: 8380 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 8968 KB (Peak: 8968 KB)
+Simulation CPU Usage: 0 ms

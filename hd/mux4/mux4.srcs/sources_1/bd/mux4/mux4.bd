@@ -1,0 +1,122 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xFDC48DFFFDC48DFF",
+      "device": "xc7z020clg484-2",
+      "gen_directory": "../../../../mux4.gen/sources_1/bd/mux4",
+      "name": "mux4",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "mux2_0": "",
+      "mux2_1": "",
+      "mux2_2": ""
+    },
+    "ports": {
+      "S0": {
+        "direction": "I"
+      },
+      "Y": {
+        "direction": "O"
+      },
+      "S1": {
+        "direction": "I"
+      },
+      "D0": {
+        "direction": "I"
+      },
+      "D1": {
+        "direction": "I"
+      },
+      "D2": {
+        "direction": "I"
+      },
+      "D3": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "mux2_0": {
+        "vlnv": "xilinx.com:user:mux2:1.0",
+        "ip_revision": "2",
+        "xci_name": "mux4_mux2_0_0",
+        "xci_path": "ip\\mux4_mux2_0_0\\mux4_mux2_0_0.xci",
+        "inst_hier_path": "mux2_0"
+      },
+      "mux2_1": {
+        "vlnv": "xilinx.com:user:mux2:1.0",
+        "ip_revision": "2",
+        "xci_name": "mux4_mux2_0_1",
+        "xci_path": "ip\\mux4_mux2_0_1\\mux4_mux2_0_1.xci",
+        "inst_hier_path": "mux2_1"
+      },
+      "mux2_2": {
+        "vlnv": "xilinx.com:user:mux2:1.0",
+        "ip_revision": "2",
+        "xci_name": "mux4_mux2_0_2",
+        "xci_path": "ip\\mux4_mux2_0_2\\mux4_mux2_0_2.xci",
+        "inst_hier_path": "mux2_2"
+      }
+    },
+    "nets": {
+      "a_0_1": {
+        "ports": [
+          "D0",
+          "mux2_0/A"
+        ]
+      },
+      "a_1_1": {
+        "ports": [
+          "D2",
+          "mux2_1/A"
+        ]
+      },
+      "b_0_1": {
+        "ports": [
+          "D1",
+          "mux2_0/B"
+        ]
+      },
+      "b_1_1": {
+        "ports": [
+          "D3",
+          "mux2_1/B"
+        ]
+      },
+      "mux2_0_out": {
+        "ports": [
+          "mux2_0/Y",
+          "mux2_2/A"
+        ]
+      },
+      "mux2_1_out": {
+        "ports": [
+          "mux2_1/Y",
+          "mux2_2/B"
+        ]
+      },
+      "mux2_2_out": {
+        "ports": [
+          "mux2_2/Y",
+          "Y"
+        ]
+      },
+      "sl_0_1": {
+        "ports": [
+          "S0",
+          "mux2_0/S",
+          "mux2_1/S"
+        ]
+      },
+      "sl_1_1": {
+        "ports": [
+          "S1",
+          "mux2_2/S"
+        ]
+      }
+    }
+  }
+}

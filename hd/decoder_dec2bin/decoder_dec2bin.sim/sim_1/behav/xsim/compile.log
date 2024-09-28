@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCode/hd/decoder_dec2bin/decoder_dec2bin.srcs/sources_1/new/decoder_dec2bin.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_dec2bin
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCode/hd/decoder_dec2bin/decoder_dec2bin.srcs/sim_1/new/decoder_dec2bin_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_dec2bin_tb

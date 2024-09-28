@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ipshared/1a7d/src/fa1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ip/ha4_fa1_0_0/sim/ha4_fa1_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ha4_fa1_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ipshared/b046/src/ha1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ha1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ip/ha4_ha1_0_0/sim/ha4_ha1_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ha4_ha1_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ip/ha4_fa1_0_1/sim/ha4_fa1_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ha4_fa1_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ip/ha4_fa1_0_2/sim/ha4_fa1_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ha4_fa1_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/sim/ha4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ha4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/hdl/ha4_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ha4_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCode/hd/ha4/ha4.srcs/sim_1/new/ha4_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ha4_tb

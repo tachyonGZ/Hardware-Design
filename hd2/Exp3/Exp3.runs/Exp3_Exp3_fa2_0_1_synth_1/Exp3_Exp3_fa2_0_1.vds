@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Aug 27 20:17:15 2024
+# Process ID: 116
+# Current directory: D:/MyCode/hd2/Exp3/Exp3.runs/Exp3_Exp3_fa2_0_1_synth_1
+# Command line: vivado.exe -log Exp3_Exp3_fa2_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Exp3_Exp3_fa2_0_1.tcl
+# Log file: D:/MyCode/hd2/Exp3/Exp3.runs/Exp3_Exp3_fa2_0_1_synth_1/Exp3_Exp3_fa2_0_1.vds
+# Journal file: D:/MyCode/hd2/Exp3/Exp3.runs/Exp3_Exp3_fa2_0_1_synth_1\vivado.jou
+# Running On        :DESKTOP-0M9PCUG
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency     :2688 MHz
+# CPU Physical cores:14
+# CPU Logical cores :20
+# Host memory       :16907 MB
+# Swap memory       :0 MB
+# Total Virtual     :16907 MB
+# Available Virtual :10078 MB
+#-----------------------------------------------------------
+source Exp3_Exp3_fa2_0_1.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 501.980 ; gain = 201.031
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MyIpRepo/Exp3_fa2_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2024.1/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Exp3_Exp3_fa2_0_1
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 67a461dd57697b3c to dir: D:/MyCode/hd2/Exp3/Exp3.runs/Exp3_Exp3_fa2_0_1_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/MyCode/hd2/Exp3/Exp3.cache/ip/2024.1/6/7/67a461dd57697b3c/Exp3_Exp3_fa2_0_0.dcp to D:/MyCode/hd2/Exp3/Exp3.runs/Exp3_Exp3_fa2_0_1_synth_1/Exp3_Exp3_fa2_0_1.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/MyCode/hd2/Exp3/Exp3.cache/ip/2024.1/6/7/67a461dd57697b3c/Exp3_Exp3_fa2_0_0_sim_netlist.v to D:/MyCode/hd2/Exp3/Exp3.runs/Exp3_Exp3_fa2_0_1_synth_1/Exp3_Exp3_fa2_0_1_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/MyCode/hd2/Exp3/Exp3.cache/ip/2024.1/6/7/67a461dd57697b3c/Exp3_Exp3_fa2_0_0_sim_netlist.vhdl to D:/MyCode/hd2/Exp3/Exp3.runs/Exp3_Exp3_fa2_0_1_synth_1/Exp3_Exp3_fa2_0_1_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/MyCode/hd2/Exp3/Exp3.cache/ip/2024.1/6/7/67a461dd57697b3c/Exp3_Exp3_fa2_0_0_stub.v to D:/MyCode/hd2/Exp3/Exp3.runs/Exp3_Exp3_fa2_0_1_synth_1/Exp3_Exp3_fa2_0_1_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/MyCode/hd2/Exp3/Exp3.cache/ip/2024.1/6/7/67a461dd57697b3c/Exp3_Exp3_fa2_0_0_stub.vhdl to D:/MyCode/hd2/Exp3/Exp3.runs/Exp3_Exp3_fa2_0_1_synth_1/Exp3_Exp3_fa2_0_1_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP Exp3_Exp3_fa2_0_1, cache-ID = 67a461dd57697b3c.
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 27 20:17:22 2024...

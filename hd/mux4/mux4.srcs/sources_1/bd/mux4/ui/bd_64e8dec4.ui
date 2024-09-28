@@ -1,0 +1,31 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.5",
+   "Default View_TopLeft":"-375,-272",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_S0 -pg 1 -lvl 0 -x -40 -y 20 -defaultsOSRD
+preplace port port-id_Y -pg 1 -lvl 3 -x 320 -y 90 -defaultsOSRD
+preplace port port-id_S1 -pg 1 -lvl 0 -x -40 -y 220 -defaultsOSRD
+preplace port port-id_D0 -pg 1 -lvl 0 -x -40 -y -20 -defaultsOSRD
+preplace port port-id_D1 -pg 1 -lvl 0 -x -40 -y 0 -defaultsOSRD
+preplace port port-id_D2 -pg 1 -lvl 0 -x -40 -y 120 -defaultsOSRD
+preplace port port-id_D3 -pg 1 -lvl 0 -x -40 -y 140 -defaultsOSRD
+preplace inst mux2_0 -pg 1 -lvl 1 -x 80 -y 0 -defaultsOSRD
+preplace inst mux2_1 -pg 1 -lvl 1 -x 80 -y 140 -defaultsOSRD
+preplace inst mux2_2 -pg 1 -lvl 2 -x 230 -y 90 -defaultsOSRD
+preplace netloc a_0_1 1 0 1 NJ -20
+preplace netloc a_1_1 1 0 1 NJ 120
+preplace netloc b_0_1 1 0 1 NJ 0
+preplace netloc b_1_1 1 0 1 NJ 140
+preplace netloc mux2_0_out 1 1 1 150 0n
+preplace netloc mux2_1_out 1 1 1 150 90n
+preplace netloc mux2_2_out 1 2 1 N 90
+preplace netloc sl_0_1 1 0 1 10 20n
+preplace netloc sl_1_1 1 0 2 NJ 220 160
+levelinfo -pg 1 -40 80 230 320
+pagesize -pg 1 -db -bbox -sgen -300 -80 410 310
+"
+}
+0

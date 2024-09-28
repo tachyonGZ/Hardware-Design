@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Jul 13 20:37:22 2024" VIVADOVERSION="2024.1">
+
+  <SYSTEMINFO ARCH="zynq" DEVICE="7z020" NAME="add_dec4" PACKAGE="clg484" SPEEDGRADE="-2"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" LEFT="3" NAME="A0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="add_dec_3" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="3" NAME="A1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="add_dec_2" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="3" NAME="A2" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="add_dec_1" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="3" NAME="A3" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="add_dec_0" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="3" NAME="B0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="add_dec_3" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="3" NAME="B1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="add_dec_2" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="3" NAME="B2" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="add_dec_1" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="3" NAME="B3" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="add_dec_0" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="3" NAME="Y0" RIGHT="0" SIGIS="undef" SIGNAME="add_dec_3_Y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="add_dec_3" PORT="Y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="3" NAME="Y1" RIGHT="0" SIGIS="undef" SIGNAME="add_dec_2_Y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="add_dec_2" PORT="Y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="3" NAME="Y2" RIGHT="0" SIGIS="undef" SIGNAME="add_dec_1_Y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="add_dec_1" PORT="Y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="3" NAME="Y3" RIGHT="0" SIGIS="undef" SIGNAME="add_dec_0_Y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="add_dec_0" PORT="Y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="External_Ports_cin">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="add_dec_3" PORT="cin"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="add_dec_0_cout">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="add_dec_0" PORT="cout"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="2" FULLNAME="/add_dec_0" HWVERSION="1.0" INSTANCE="add_dec_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="add_dec" VLNV="xilinx.com:user:add_dec:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="add_dec4_add_dec_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="A" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="B" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="Y" RIGHT="0" SIGIS="undef" SIGNAME="add_dec_0_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="add_dec_1_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="add_dec_1" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="add_dec_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/add_dec_1" HWVERSION="1.0" INSTANCE="add_dec_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="add_dec" VLNV="xilinx.com:user:add_dec:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="add_dec4_add_dec_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="A" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="B" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="Y" RIGHT="0" SIGIS="undef" SIGNAME="add_dec_1_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="add_dec_2_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="add_dec_2" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="add_dec_1_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="add_dec_0" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/add_dec_2" HWVERSION="1.0" INSTANCE="add_dec_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="add_dec" VLNV="xilinx.com:user:add_dec:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="add_dec4_add_dec_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="A" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="B" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="Y" RIGHT="0" SIGIS="undef" SIGNAME="add_dec_2_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="add_dec_3_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="add_dec_3" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="add_dec_2_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="add_dec_1" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/add_dec_3" HWVERSION="1.0" INSTANCE="add_dec_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="add_dec" VLNV="xilinx.com:user:add_dec:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="add_dec4_add_dec_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="A" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="B" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="Y" RIGHT="0" SIGIS="undef" SIGNAME="add_dec_3_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="External_Ports_cin">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="add_dec_3_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="add_dec_2" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

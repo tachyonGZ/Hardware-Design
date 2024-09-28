@@ -1,0 +1,8 @@
+fa1.v,verilog,xil_defaultlib,../../../../ha4.gen/sources_1/bd/ha4/ipshared/1a7d/src/fa1.v,
+ha4_fa1_0_0.v,verilog,xil_defaultlib,../../../../ha4.gen/sources_1/bd/ha4/ip/ha4_fa1_0_0/sim/ha4_fa1_0_0.v,
+ha1.v,verilog,xil_defaultlib,../../../../ha4.gen/sources_1/bd/ha4/ipshared/b046/src/ha1.v,
+ha4_ha1_0_0.v,verilog,xil_defaultlib,../../../../ha4.gen/sources_1/bd/ha4/ip/ha4_ha1_0_0/sim/ha4_ha1_0_0.v,
+ha4_fa1_0_1.v,verilog,xil_defaultlib,../../../../ha4.gen/sources_1/bd/ha4/ip/ha4_fa1_0_1/sim/ha4_fa1_0_1.v,
+ha4_fa1_0_2.v,verilog,xil_defaultlib,../../../../ha4.gen/sources_1/bd/ha4/ip/ha4_fa1_0_2/sim/ha4_fa1_0_2.v,
+ha4.v,verilog,xil_defaultlib,../../../../ha4.gen/sources_1/bd/ha4/sim/ha4.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

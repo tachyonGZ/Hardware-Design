@@ -1,0 +1,189 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x478676C2478676C2",
+      "device": "xc7z020clg484-2",
+      "gen_directory": "../../../../ha4.gen/sources_1/bd/ha4",
+      "name": "ha4",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "fa1_0": "",
+      "ha1_0": "",
+      "fa1_1": "",
+      "fa1_2": ""
+    },
+    "ports": {
+      "sum_0": {
+        "direction": "O"
+      },
+      "cout_0": {
+        "direction": "O"
+      },
+      "ia_0": {
+        "direction": "I"
+      },
+      "ib_0": {
+        "direction": "I"
+      },
+      "ia_1": {
+        "direction": "I"
+      },
+      "ib_1": {
+        "direction": "I"
+      },
+      "sum_1": {
+        "direction": "O"
+      },
+      "ia_2": {
+        "direction": "I"
+      },
+      "ib_2": {
+        "direction": "I"
+      },
+      "sum_2": {
+        "direction": "O"
+      },
+      "ia_3": {
+        "direction": "I"
+      },
+      "ib_3": {
+        "direction": "I"
+      },
+      "sum_3": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "fa1_0": {
+        "vlnv": "xilinx.com:user:fa1:1.0",
+        "ip_revision": "2",
+        "xci_name": "ha4_fa1_0_0",
+        "xci_path": "ip\\ha4_fa1_0_0\\ha4_fa1_0_0.xci",
+        "inst_hier_path": "fa1_0"
+      },
+      "ha1_0": {
+        "vlnv": "xilinx.com:user:ha1:1.0",
+        "ip_revision": "2",
+        "xci_name": "ha4_ha1_0_0",
+        "xci_path": "ip\\ha4_ha1_0_0\\ha4_ha1_0_0.xci",
+        "inst_hier_path": "ha1_0"
+      },
+      "fa1_1": {
+        "vlnv": "xilinx.com:user:fa1:1.0",
+        "ip_revision": "2",
+        "xci_name": "ha4_fa1_0_1",
+        "xci_path": "ip\\ha4_fa1_0_1\\ha4_fa1_0_1.xci",
+        "inst_hier_path": "fa1_1"
+      },
+      "fa1_2": {
+        "vlnv": "xilinx.com:user:fa1:1.0",
+        "ip_revision": "2",
+        "xci_name": "ha4_fa1_0_2",
+        "xci_path": "ip\\ha4_fa1_0_2\\ha4_fa1_0_2.xci",
+        "inst_hier_path": "fa1_2"
+      }
+    },
+    "nets": {
+      "fa1_0_cout": {
+        "ports": [
+          "fa1_0/cout",
+          "cout_0"
+        ]
+      },
+      "fa1_0_sum": {
+        "ports": [
+          "fa1_0/sum",
+          "sum_0"
+        ]
+      },
+      "fa1_1_cout": {
+        "ports": [
+          "fa1_1/cout",
+          "fa1_0/cin"
+        ]
+      },
+      "fa1_1_sum": {
+        "ports": [
+          "fa1_1/sum",
+          "sum_1"
+        ]
+      },
+      "fa1_2_cout": {
+        "ports": [
+          "fa1_2/cout",
+          "fa1_1/cin"
+        ]
+      },
+      "fa1_2_sum": {
+        "ports": [
+          "fa1_2/sum",
+          "sum_2"
+        ]
+      },
+      "ha1_0_cout": {
+        "ports": [
+          "ha1_0/cout",
+          "fa1_2/cin"
+        ]
+      },
+      "ha1_0_sum": {
+        "ports": [
+          "ha1_0/sum",
+          "sum_3"
+        ]
+      },
+      "ia_0_1": {
+        "ports": [
+          "ia_0",
+          "fa1_0/ia"
+        ]
+      },
+      "ia_1_1": {
+        "ports": [
+          "ia_1",
+          "fa1_1/ia"
+        ]
+      },
+      "ia_2_1": {
+        "ports": [
+          "ia_2",
+          "fa1_2/ia"
+        ]
+      },
+      "ia_3_1": {
+        "ports": [
+          "ia_3",
+          "ha1_0/ia"
+        ]
+      },
+      "ib_0_1": {
+        "ports": [
+          "ib_0",
+          "fa1_0/ib"
+        ]
+      },
+      "ib_1_1": {
+        "ports": [
+          "ib_1",
+          "fa1_1/ib"
+        ]
+      },
+      "ib_2_1": {
+        "ports": [
+          "ib_2",
+          "fa1_2/ib"
+        ]
+      },
+      "ib_3_1": {
+        "ports": [
+          "ib_3",
+          "ha1_0/ib"
+        ]
+      }
+    }
+  }
+}

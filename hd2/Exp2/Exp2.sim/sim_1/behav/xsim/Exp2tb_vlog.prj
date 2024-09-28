@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Exp2.srcs/sources_1/new/Exp2.v" \
+"../../../../Exp2.srcs/sim_1/new/Exp2tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

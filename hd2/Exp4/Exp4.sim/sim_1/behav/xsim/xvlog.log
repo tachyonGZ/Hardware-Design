@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCode/hd2/Exp4/Exp4.srcs/sources_1/new/Exp4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Exp4
+INFO: [VRFC 10-311] analyzing module Detect
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCode/hd2/Exp4/Exp4.srcs/sim_1/new/Exp4_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Exp4_tb

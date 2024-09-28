@@ -1,0 +1,11 @@
+verilog xil_defaultlib  \
+"../../../../demux4.gen/sources_1/bd/demux4/ipshared/89b8/src/demux2.v" \
+"../../../../demux4.gen/sources_1/bd/demux4/ip/demux4_demux2_0_0/sim/demux4_demux2_0_0.v" \
+"../../../../demux4.gen/sources_1/bd/demux4/ip/demux4_demux2_0_1/sim/demux4_demux2_0_1.v" \
+"../../../../demux4.gen/sources_1/bd/demux4/ip/demux4_demux2_0_2/sim/demux4_demux2_0_2.v" \
+"../../../../demux4.gen/sources_1/bd/demux4/sim/demux4.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

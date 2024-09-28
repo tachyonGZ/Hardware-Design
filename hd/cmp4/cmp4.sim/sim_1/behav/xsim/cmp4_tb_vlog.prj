@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../cmp4.gen/sources_1/ip/cmp_0/src/cmp.v" \
+"../../../../cmp4.gen/sources_1/ip/cmp_0/sim/cmp_0.v" \
+"../../../../cmp4.srcs/sources_1/new/cmp4.v" \
+"../../../../cmp4.srcs/sim_1/new/cmp4_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

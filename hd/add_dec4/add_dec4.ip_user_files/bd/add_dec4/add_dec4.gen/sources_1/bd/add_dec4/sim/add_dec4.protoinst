@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"add_dec4": {
+			"proto_instances": {
+			}
+		}
+	}
+}

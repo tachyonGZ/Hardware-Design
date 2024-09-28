@@ -1,0 +1,14 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/hdl/ha4_wrapper.v,1720606739,verilog,,D:/MyCode/hd/ha4/ha4.srcs/sim_1/new/ha4_tb.v,,ha4_wrapper,,,,,,,,
+D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ip/ha4_fa1_0_0/sim/ha4_fa1_0_0.v,1720606739,verilog,,D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ipshared/b046/src/ha1.v,,ha4_fa1_0_0,,,,,,,,
+D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ip/ha4_fa1_0_1/sim/ha4_fa1_0_1.v,1720606739,verilog,,D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ip/ha4_fa1_0_2/sim/ha4_fa1_0_2.v,,ha4_fa1_0_1,,,,,,,,
+D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ip/ha4_fa1_0_2/sim/ha4_fa1_0_2.v,1720606739,verilog,,D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/sim/ha4.v,,ha4_fa1_0_2,,,,,,,,
+D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ip/ha4_ha1_0_0/sim/ha4_ha1_0_0.v,1720606739,verilog,,D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ip/ha4_fa1_0_1/sim/ha4_fa1_0_1.v,,ha4_ha1_0_0,,,,,,,,
+D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ipshared/1a7d/src/fa1.v,1720606739,verilog,,D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ip/ha4_fa1_0_0/sim/ha4_fa1_0_0.v,,fa1,,,,,,,,
+D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ipshared/b046/src/ha1.v,1720606739,verilog,,D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/ip/ha4_ha1_0_0/sim/ha4_ha1_0_0.v,,ha1,,,,,,,,
+D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/sim/ha4.v,1720606739,verilog,,D:/MyCode/hd/ha4/ha4.gen/sources_1/bd/ha4/hdl/ha4_wrapper.v,,ha4,,,,,,,,
+D:/MyCode/hd/ha4/ha4.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+D:/MyCode/hd/ha4/ha4.srcs/sim_1/new/ha4_tb.v,1720935848,verilog,,,,ha4_tb,,,,,,,,

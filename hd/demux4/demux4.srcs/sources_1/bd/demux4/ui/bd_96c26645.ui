@@ -1,0 +1,31 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.5",
+   "Default View_TopLeft":"-541,-441",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_A0 -pg 1 -lvl 0 -x -240 -y -220 -defaultsOSRD
+preplace port port-id_Y0 -pg 1 -lvl 3 -x 180 -y -240 -defaultsOSRD
+preplace port port-id_Y1 -pg 1 -lvl 3 -x 180 -y -220 -defaultsOSRD
+preplace port port-id_A1 -pg 1 -lvl 0 -x -240 -y -100 -defaultsOSRD
+preplace port port-id_D -pg 1 -lvl 0 -x -240 -y -120 -defaultsOSRD
+preplace port port-id_Y2 -pg 1 -lvl 3 -x 180 -y 0 -defaultsOSRD
+preplace port port-id_Y3 -pg 1 -lvl 3 -x 180 -y 20 -defaultsOSRD
+preplace inst demux2_0 -pg 1 -lvl 2 -x 80 -y -230 -defaultsOSRD
+preplace inst demux2_1 -pg 1 -lvl 2 -x 80 -y 10 -defaultsOSRD
+preplace inst demux2_2 -pg 1 -lvl 1 -x -140 -y -110 -defaultsOSRD
+preplace netloc A_0_1 1 0 2 NJ -220 0J
+preplace netloc A_1_1 1 0 1 NJ -100
+preplace netloc D_0_1 1 0 1 NJ -120
+preplace netloc demux2_0_Y0 1 2 1 NJ -240
+preplace netloc demux2_0_Y1 1 2 1 NJ -220
+preplace netloc demux2_1_Y0 1 2 1 NJ 0
+preplace netloc demux2_1_Y1 1 2 1 NJ 20
+preplace netloc demux2_2_Y0 1 1 1 10 -240n
+preplace netloc demux2_2_Y1 1 1 1 -70 -100n
+levelinfo -pg 1 -240 -140 80 180
+pagesize -pg 1 -db -bbox -sgen -320 -320 270 140
+"
+}
+0

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCode/hd2/d3_8/d3_8.srcs/sources_1/new/d3_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d3_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCode/hd2/d3_8/d3_8.srcs/sim_1/new/d3_8tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d3_8tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCode/hd2/d3_8/d3_8.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

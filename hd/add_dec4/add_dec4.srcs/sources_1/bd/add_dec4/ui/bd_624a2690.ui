@@ -1,0 +1,47 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.5",
+   "Default View_TopLeft":"-411,-367",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_cout -pg 1 -lvl 2 -x 240 -y -240 -defaultsOSRD
+preplace port port-id_cin -pg 1 -lvl 0 -x -50 -y 190 -defaultsOSRD
+preplace portBus A3 -pg 1 -lvl 0 -x -50 -y -270 -defaultsOSRD
+preplace portBus B3 -pg 1 -lvl 0 -x -50 -y -250 -defaultsOSRD
+preplace portBus Y3 -pg 1 -lvl 2 -x 240 -y -260 -defaultsOSRD
+preplace portBus A2 -pg 1 -lvl 0 -x -50 -y -130 -defaultsOSRD
+preplace portBus B2 -pg 1 -lvl 0 -x -50 -y -110 -defaultsOSRD
+preplace portBus Y2 -pg 1 -lvl 2 -x 240 -y -120 -defaultsOSRD
+preplace portBus A1 -pg 1 -lvl 0 -x -50 -y 10 -defaultsOSRD
+preplace portBus B1 -pg 1 -lvl 0 -x -50 -y 30 -defaultsOSRD
+preplace portBus Y1 -pg 1 -lvl 2 -x 240 -y 20 -defaultsOSRD
+preplace portBus A0 -pg 1 -lvl 0 -x -50 -y 150 -defaultsOSRD
+preplace portBus B0 -pg 1 -lvl 0 -x -50 -y 170 -defaultsOSRD
+preplace portBus Y0 -pg 1 -lvl 2 -x 240 -y 160 -defaultsOSRD
+preplace inst add_dec_0 -pg 1 -lvl 1 -x 80 -y -250 -defaultsOSRD
+preplace inst add_dec_1 -pg 1 -lvl 1 -x 80 -y -110 -defaultsOSRD
+preplace inst add_dec_2 -pg 1 -lvl 1 -x 80 -y 30 -defaultsOSRD
+preplace inst add_dec_3 -pg 1 -lvl 1 -x 80 -y 170 -defaultsOSRD
+preplace netloc A_0_1 1 0 1 NJ -270
+preplace netloc A_1_1 1 0 1 NJ -130
+preplace netloc A_2_1 1 0 1 NJ 10
+preplace netloc A_3_1 1 0 1 NJ 150
+preplace netloc B_0_1 1 0 1 NJ -250
+preplace netloc B_1_1 1 0 1 NJ -110
+preplace netloc B_2_1 1 0 1 NJ 30
+preplace netloc B_3_1 1 0 1 NJ 170
+preplace netloc add_dec_0_Y 1 1 1 NJ -260
+preplace netloc add_dec_0_cout 1 1 1 NJ -240
+preplace netloc add_dec_1_Y 1 1 1 N -120
+preplace netloc add_dec_1_cout 1 0 2 -10 250 190
+preplace netloc add_dec_2_Y 1 1 1 N 20
+preplace netloc add_dec_2_cout 1 0 2 -20 260 180
+preplace netloc add_dec_3_Y 1 1 1 N 160
+preplace netloc add_dec_3_cout 1 0 2 -30 270 170
+preplace netloc cin_0_1 1 0 1 NJ 190
+levelinfo -pg 1 -50 80 240
+pagesize -pg 1 -db -bbox -sgen -150 -330 350 280
+"
+}
+0

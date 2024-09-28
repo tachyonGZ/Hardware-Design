@@ -1,0 +1,12 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+D:/MyCode/hd/mux4/mux4.gen/sources_1/bd/mux4/hdl/mux4_wrapper.v,1720677529,verilog,,D:/MyCode/hd/mux4/mux4.srcs/sim_1/new/mux4_tb.v,,mux4_wrapper,,,,,,,,
+D:/MyCode/hd/mux4/mux4.gen/sources_1/bd/mux4/ip/mux4_mux2_0_0/sim/mux4_mux2_0_0.v,1720676750,verilog,,D:/MyCode/hd/mux4/mux4.gen/sources_1/bd/mux4/ip/mux4_mux2_0_1/sim/mux4_mux2_0_1.v,,mux4_mux2_0_0,,,,,,,,
+D:/MyCode/hd/mux4/mux4.gen/sources_1/bd/mux4/ip/mux4_mux2_0_1/sim/mux4_mux2_0_1.v,1720676750,verilog,,D:/MyCode/hd/mux4/mux4.gen/sources_1/bd/mux4/ip/mux4_mux2_0_2/sim/mux4_mux2_0_2.v,,mux4_mux2_0_1,,,,,,,,
+D:/MyCode/hd/mux4/mux4.gen/sources_1/bd/mux4/ip/mux4_mux2_0_2/sim/mux4_mux2_0_2.v,1720676750,verilog,,D:/MyCode/hd/mux4/mux4.gen/sources_1/bd/mux4/sim/mux4.v,,mux4_mux2_0_2,,,,,,,,
+D:/MyCode/hd/mux4/mux4.gen/sources_1/bd/mux4/ipshared/b12d/src/mux2.v,1720676750,verilog,,D:/MyCode/hd/mux4/mux4.gen/sources_1/bd/mux4/ip/mux4_mux2_0_0/sim/mux4_mux2_0_0.v,,mux2,,,,,,,,
+D:/MyCode/hd/mux4/mux4.gen/sources_1/bd/mux4/sim/mux4.v,1720677529,verilog,,D:/MyCode/hd/mux4/mux4.gen/sources_1/bd/mux4/hdl/mux4_wrapper.v,,mux4,,,,,,,,
+D:/MyCode/hd/mux4/mux4.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+D:/MyCode/hd/mux4/mux4.srcs/sim_1/new/mux4_tb.v,1720677977,verilog,,,,mux4_tb,,,,,,,,

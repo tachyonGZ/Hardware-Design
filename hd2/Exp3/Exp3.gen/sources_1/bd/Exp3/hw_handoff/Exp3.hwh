@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Aug 27 20:16:45 2024" VIVADOVERSION="2024.1">
+
+  <SYSTEMINFO ARCH="zynq" DEVICE="7z020" NAME="Exp3" PACKAGE="clg484" SPEEDGRADE="-2"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" LEFT="1" NAME="a_0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_a_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Exp3_fa2_1" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="1" NAME="a_1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_a_1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Exp3_fa2_0" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="1" NAME="b_0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_b_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Exp3_fa2_1" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="1" NAME="b_1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_b_1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Exp3_fa2_0" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="cin_0" SIGIS="undef" SIGNAME="External_Ports_cin_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Exp3_fa2_1" PORT="cin"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="cout_0" SIGIS="undef" SIGNAME="Exp3_fa2_0_cout">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Exp3_fa2_0" PORT="cout"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="1" NAME="s_0" RIGHT="0" SIGIS="undef" SIGNAME="Exp3_fa2_1_s">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Exp3_fa2_1" PORT="s"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="1" NAME="s_1" RIGHT="0" SIGIS="undef" SIGNAME="Exp3_fa2_0_s">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Exp3_fa2_0" PORT="s"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="2" FULLNAME="/Exp3_fa2_0" HWVERSION="1.0" INSTANCE="Exp3_fa2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Exp3_fa2" VLNV="xilinx.com:user:Exp3_fa2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="Exp3_Exp3_fa2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="1" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_a_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_b_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="Exp3_fa2_1_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Exp3_fa2_1" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="Exp3_fa2_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="cout_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1" NAME="s" RIGHT="0" SIGIS="undef" SIGNAME="Exp3_fa2_0_s">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s_1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/Exp3_fa2_1" HWVERSION="1.0" INSTANCE="Exp3_fa2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Exp3_fa2" VLNV="xilinx.com:user:Exp3_fa2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="Exp3_Exp3_fa2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="1" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_a_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_b_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="External_Ports_cin_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="cin_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="Exp3_fa2_1_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Exp3_fa2_0" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1" NAME="s" RIGHT="0" SIGIS="undef" SIGNAME="Exp3_fa2_1_s">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

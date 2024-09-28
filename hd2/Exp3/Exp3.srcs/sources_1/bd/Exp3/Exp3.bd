@@ -1,0 +1,128 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xFFD0B2A7FFD0B2A7",
+      "device": "xc7z020clg484-2",
+      "gen_directory": "../../../../Exp3.gen/sources_1/bd/Exp3",
+      "name": "Exp3",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Exp3_fa2_0": "",
+      "Exp3_fa2_1": ""
+    },
+    "ports": {
+      "a_0": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "b_0": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "cin_0": {
+        "direction": "I"
+      },
+      "s_0": {
+        "direction": "O",
+        "left": "1",
+        "right": "0"
+      },
+      "a_1": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "b_1": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "cout_0": {
+        "direction": "O"
+      },
+      "s_1": {
+        "direction": "O",
+        "left": "1",
+        "right": "0"
+      }
+    },
+    "components": {
+      "Exp3_fa2_0": {
+        "vlnv": "xilinx.com:user:Exp3_fa2:1.0",
+        "ip_revision": "2",
+        "xci_name": "Exp3_Exp3_fa2_0_0",
+        "xci_path": "ip\\Exp3_Exp3_fa2_0_0\\Exp3_Exp3_fa2_0_0.xci",
+        "inst_hier_path": "Exp3_fa2_0"
+      },
+      "Exp3_fa2_1": {
+        "vlnv": "xilinx.com:user:Exp3_fa2:1.0",
+        "ip_revision": "2",
+        "xci_name": "Exp3_Exp3_fa2_0_1",
+        "xci_path": "ip\\Exp3_Exp3_fa2_0_1\\Exp3_Exp3_fa2_0_1.xci",
+        "inst_hier_path": "Exp3_fa2_1"
+      }
+    },
+    "nets": {
+      "Exp3_fa2_0_cout": {
+        "ports": [
+          "Exp3_fa2_0/cout",
+          "cout_0"
+        ]
+      },
+      "Exp3_fa2_0_s": {
+        "ports": [
+          "Exp3_fa2_0/s",
+          "s_1"
+        ]
+      },
+      "Exp3_fa2_1_cout": {
+        "ports": [
+          "Exp3_fa2_1/cout",
+          "Exp3_fa2_0/cin"
+        ]
+      },
+      "Exp3_fa2_1_s": {
+        "ports": [
+          "Exp3_fa2_1/s",
+          "s_0"
+        ]
+      },
+      "a_0_1": {
+        "ports": [
+          "a_0",
+          "Exp3_fa2_1/a"
+        ]
+      },
+      "a_1_1": {
+        "ports": [
+          "a_1",
+          "Exp3_fa2_0/a"
+        ]
+      },
+      "b_0_1": {
+        "ports": [
+          "b_0",
+          "Exp3_fa2_1/b"
+        ]
+      },
+      "b_1_1": {
+        "ports": [
+          "b_1",
+          "Exp3_fa2_0/b"
+        ]
+      },
+      "cin_0_1": {
+        "ports": [
+          "cin_0",
+          "Exp3_fa2_1/cin"
+        ]
+      }
+    }
+  }
+}

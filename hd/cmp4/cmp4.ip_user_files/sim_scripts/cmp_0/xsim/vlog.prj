@@ -1,0 +1,8 @@
+verilog xil_defaultlib  \
+"../../../../cmp4.gen/sources_1/ip/cmp_0/src/cmp.v" \
+"../../../../cmp4.gen/sources_1/ip/cmp_0/sim/cmp_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

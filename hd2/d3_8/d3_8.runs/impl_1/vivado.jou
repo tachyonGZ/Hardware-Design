@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Aug 20 08:43:49 2024
+# Process ID: 2120
+# Current directory: D:/MyCode/hd2/d3_8/d3_8.runs/impl_1
+# Command line: vivado.exe -log d3_8.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source d3_8.tcl -notrace
+# Log file: D:/MyCode/hd2/d3_8/d3_8.runs/impl_1/d3_8.vdi
+# Journal file: D:/MyCode/hd2/d3_8/d3_8.runs/impl_1\vivado.jou
+# Running On        :DESKTOP-0M9PCUG
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency     :2688 MHz
+# CPU Physical cores:14
+# CPU Logical cores :20
+# Host memory       :16907 MB
+# Swap memory       :0 MB
+# Total Virtual     :16907 MB
+# Available Virtual :11046 MB
+#-----------------------------------------------------------
+source d3_8.tcl -notrace

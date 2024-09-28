@@ -1,0 +1,35 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Exp5_tb_behav xil_defaultlib.Exp5_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'Cin' [D:/MyCode/hd2/Exp5/Exp5.srcs/sources_1/new/Exp5.v:354]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'Cin' [D:/MyCode/hd2/Exp5/Exp5.srcs/sources_1/new/Exp5.v:72]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.CLA_32
+Compiling module xil_defaultlib.PCadd4
+Compiling module xil_defaultlib.INSTMEM
+Compiling module xil_defaultlib.CONUNIT
+Compiling module xil_defaultlib.MUX2X5
+Compiling module xil_defaultlib.MUX2X32
+Compiling module xil_defaultlib.EXT16T32
+Compiling module xil_defaultlib.SHIFTER_COMBINATION
+Compiling module xil_defaultlib.SHIFTER32_L2
+Compiling module xil_defaultlib.DEC3T8E
+Compiling module xil_defaultlib.REG8X32
+Compiling module xil_defaultlib.MUX8X32
+Compiling module xil_defaultlib.REGFILE
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.MUX4X32
+Compiling module xil_defaultlib.SHIFTER32
+Compiling module xil_defaultlib.DATAMEM
+Compiling module xil_defaultlib.Exp5
+Compiling module xil_defaultlib.Exp5_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Exp5_tb_behav

@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Jul 10 18:18:59 2024" VIVADOVERSION="2024.1">
+
+  <SYSTEMINFO ARCH="zynq" DEVICE="7z020" NAME="ha4" PACKAGE="clg484" SPEEDGRADE="-2"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="O" NAME="cout_0" SIGIS="undef" SIGNAME="fa1_0_cout">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fa1_0" PORT="cout"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ia_0" SIGIS="undef" SIGNAME="External_Ports_ia_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fa1_0" PORT="ia"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ia_1" SIGIS="undef" SIGNAME="External_Ports_ia_1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fa1_1" PORT="ia"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ia_2" SIGIS="undef" SIGNAME="External_Ports_ia_2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fa1_2" PORT="ia"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ia_3" SIGIS="undef" SIGNAME="External_Ports_ia_3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ha1_0" PORT="ia"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ib_0" SIGIS="undef" SIGNAME="External_Ports_ib_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fa1_0" PORT="ib"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ib_1" SIGIS="undef" SIGNAME="External_Ports_ib_1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fa1_1" PORT="ib"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ib_2" SIGIS="undef" SIGNAME="External_Ports_ib_2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fa1_2" PORT="ib"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ib_3" SIGIS="undef" SIGNAME="External_Ports_ib_3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ha1_0" PORT="ib"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="sum_0" SIGIS="undef" SIGNAME="fa1_0_sum">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fa1_0" PORT="sum"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="sum_1" SIGIS="undef" SIGNAME="fa1_1_sum">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fa1_1" PORT="sum"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="sum_2" SIGIS="undef" SIGNAME="fa1_2_sum">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fa1_2" PORT="sum"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="sum_3" SIGIS="undef" SIGNAME="ha1_0_sum">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ha1_0" PORT="sum"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="2" FULLNAME="/fa1_0" HWVERSION="1.0" INSTANCE="fa1_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="fa1" VLNV="xilinx.com:user:fa1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="ha4_fa1_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="fa1_1_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="fa1_1" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="fa1_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="cout_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ia" SIGIS="undef" SIGNAME="External_Ports_ia_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ia_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ib" SIGIS="undef" SIGNAME="External_Ports_ib_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ib_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="fa1_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="sum_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/fa1_1" HWVERSION="1.0" INSTANCE="fa1_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="fa1" VLNV="xilinx.com:user:fa1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="ha4_fa1_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="fa1_2_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="fa1_2" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="fa1_1_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="fa1_0" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ia" SIGIS="undef" SIGNAME="External_Ports_ia_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ia_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ib" SIGIS="undef" SIGNAME="External_Ports_ib_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ib_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="fa1_1_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="sum_1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/fa1_2" HWVERSION="1.0" INSTANCE="fa1_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="fa1" VLNV="xilinx.com:user:fa1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="ha4_fa1_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="ha1_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ha1_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="fa1_2_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="fa1_1" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ia" SIGIS="undef" SIGNAME="External_Ports_ia_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ia_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ib" SIGIS="undef" SIGNAME="External_Ports_ib_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ib_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="fa1_2_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="sum_2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/ha1_0" HWVERSION="1.0" INSTANCE="ha1_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ha1" VLNV="xilinx.com:user:ha1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="ha4_ha1_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="ha1_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="fa1_2" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ia" SIGIS="undef" SIGNAME="External_Ports_ia_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ia_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ib" SIGIS="undef" SIGNAME="External_Ports_ib_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ib_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="ha1_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="sum_3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>
